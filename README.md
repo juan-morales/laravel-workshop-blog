@@ -8,12 +8,13 @@ In order to understand the files attached in this repo, follow the presentation.
 
 ## Live presentations I have already done
 ### Nodo SDE - Santiago del Estero - Argentina (2018)
-![Nodo SDE](repo_extra/nodosde.png?raw=true "NODO SDE")
+[Nodo Tecnologico de Santiago del Estero -  Official Site](http://nodosde.gob.ar/)
 
-![Nodo SDE 1](repo_extra/nodo1.jpg?raw=true "NODO SDE 1")
-
-![Nodo SDE 2](repo_extra/nodo2.jpg?raw=true "NODO SDE 2")
+<img src="https://github.com/juancarmo/laravel-workshop-blog/blob/master/repo_extra/nodosde.png" width=100>
+<img src="https://github.com/juancarmo/laravel-workshop-blog/blob/master/repo_extra/nodo1.jpg" width=100>
+<img src="https://github.com/juancarmo/laravel-workshop-blog/blob/master/repo_extra/nodo2.jpg" width=100>
 
 ### /dev/night - A meetup not only for developers - Ansbach - Germany (2019)
-![devnight](repo_extra/dev_night-logo.png?raw=true "devnight")
-[devnight official site](https://dev-night.io/)
+[dev-night official site](https://dev-night.io/)
+
+<img src="https://github.com/juancarmo/laravel-workshop-blog/blob/master/repo_extra/dev_night-logo.png" width=300>
