@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Laravel - MiniBlog</title>
+    <!-- meta code -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- CSS files -->
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+</head>
+<body>
+    <!-- MASTER CONTAINER -->
+    <div class="main-container">
+        <!-- HEADER -->
+        <div class="header">
+            <h3 class="app-name">
+                <img class="header-logo" src="logo.png" height="40">
+                Mini-Blog
+            </h3>
+            <div class="header-menu">
+                <ul>
+                    <li class="menu-item">
+                        <a href="index.html">Posts</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- AUTH buttons -->
+            <div class="auth-section">
+                <ul class="auth-menu">
+                    <li class="menu-item">
+                        <a href="login.html" class="btn btn-outline-danger">Login</a>
+                        <a href="register.html" class="btn btn-outline-dark">Register</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- END AUTH buttons -->
+            <!-- SECTION SEARCH -->
+            <div class="search-section">
+                <form action="" method="POST" class="form form-inline">
+                    <label for="pattern"><b>Search</b> &nbsp </label>
+                    <input type="text" name="pattern" class="form-control">  &nbsp 
+                    <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <!-- END SECTION SEARCH -->
+        </div>
+        <!-- END HEADER -->
+        <!-- CONTENT -->
+        <div class="content">
+            <!-- BUTTON - NEW POST -->
+            <div style="margin-bottom: 80px;">
+                <a href="create.html" class="btn btn-danger" style="float: right;">New Post <i class="fa fa-plus-square"></i></a>
+            </div>
+            <!-- END BUTTON - NEW POST -->
+            <!-- LIST OF POSTS -->
+            <ul class="list-unstyled">
+                <!-- SINGLE POST -->
+                <a href="post.html">
+                <li class="media item-publicacion">
+                    <img class="mr-3" src="logo.png" alt="Generic placeholder image" height="30">
+                    <div class="media-body">
+                        <h5 class="mt-0">Post</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        <br/>
+                        <div class="media-footer">
+                            <span title="Visits"><i class="fa fa-eye"></i> 100 </span>&nbsp
+                            <span title="Comments"><i class="fa fa-comment"></i> 10 </span> &nbsp
+                            <span title="Publish date"><i class="fa fa-calendar"></i> Published: 2019-01-01 13:10:01 </span>
+                        </div>
+                    </div>
+                </li>
+                </a>
+                <!-- END SINGLE POST -->
+
+                <a href="post.html">
+                <li class="media item-publicacion">
+                    <img class="mr-3" src="logo.png" alt="Generic placeholder image" height="30">
+                    <div class="media-body">
+                        <h5 class="mt-0">Post</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        <br/>
+                        <div class="media-footer">
+                            <span title="Visits"><i class="fa fa-eye"></i> 100 </span>&nbsp
+                            <span title="Comments"><i class="fa fa-comment"></i> 10 </span> &nbsp
+                            <span title="Publish date"><i class="fa fa-calendar"></i> Published: 2019-01-01 13:10:01 </span>
+                        </div>
+                    </div>
+                </li>
+                </a>
+
+                <a href="post.html">
+                <li class="media item-publicacion">
+                    <img class="mr-3" src="logo.png" alt="Generic placeholder image" height="30">
+                    <div class="media-body">
+                        <h5 class="mt-0">Post</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        <br/>
+                        <div class="media-footer">
+                            <span title="Visits"><i class="fa fa-eye"></i> 100 </span>&nbsp
+                            <span title="Comments"><i class="fa fa-comment"></i> 10 </span> &nbsp
+                            <span title="Publish date"><i class="fa fa-calendar"></i> Published: 2019-01-01 13:10:01 </span>
+                        </div>
+                    </div>
+                </li>
+                </a>
+            </ul>
+            <!-- END LIST OF POSTS -->
+        </div>
+        <!-- END CONTENT -->
+    </div>
+
+    <!-- JS files -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

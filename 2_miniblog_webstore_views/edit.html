@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Laravel - MiniBlog</title>
+    <!-- meta code -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- CSS files -->
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="header">
+            <h3 class="app-name">
+                <img class="header-logo" src="logo.png" height="40">
+                Mini-Blog
+            </h3>
+            <div class="header-menu">
+                <ul>
+                    <li class="menu-item">
+                        <a href="index.html">Posts</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="auth-section">
+                <ul class="auth-menu">
+                    <li class="menu-item">
+                        <a href="login.html" class="btn btn-outline-danger">Login</a>
+                        <a href="register.html" class="btn btn-outline-dark">Register</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="search-section">
+                <form action="" method="POST" class="form form-inline">
+                    <label for="pattern"><b>Search</b> &nbsp </label>
+                    <input type="text" name="pattern" class="form-control">  &nbsp 
+                    <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="publicacion">
+                <h3>Edit your Post</h3>
+                <form class="form" action="" method="POST">
+                    <div class="form-group">
+                        <label for="title">Title</label>
+                        <input class="form-control" type="text" name="title" id="title" value="Post">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contenido">Body</label>
+                        <textarea rows="5" class="form-control" name="body" id="body">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</textarea>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <button type="submit" class="btn btn-danger btn-lg btn-block">Save <i class="fa fa-check"></i></button>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <a style="color:white;" href="index.html" class="btn btn-dark btn-lg btn-block">Cancel <i class="fa fa-ban"></i></a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
