@@ -1,4 +1,4 @@
-# Laravel-Workshop-Blog
+# Laravel-Workshop-Blog <img src="https://github.com/juancarmo/laravel-workshop-blog/blob/master/repo_extra/laravel.png" width=60>
 
 I prepared this presentation about Laravel, oriented to programmers that are new into the framework.
 
