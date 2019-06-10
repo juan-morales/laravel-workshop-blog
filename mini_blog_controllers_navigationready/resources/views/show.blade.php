@@ -32,7 +32,7 @@
                     <form action="{{ route("comments-store") }}" method="POST">
                         @csrf
                         <div class="form-group">
-                            <input type="text" name="post_id" hidden>
+                            <input type="text" name="post_id" value="{{ $post->id }}" hidden>
                             <label for="comment">Your comment (Max. 200 characters)</label>    
                             <textarea rows="3" name="message" id="message" class="form-control"></textarea>
                         </div>
