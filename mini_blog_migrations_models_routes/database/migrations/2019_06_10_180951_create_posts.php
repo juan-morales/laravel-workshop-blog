@@ -18,6 +18,7 @@ class CreatePosts extends Migration
             $table->string('title', 255);
             $table->text('body');
             $table->bigInteger("visits")->default(0);
+            $table->bigInteger("user_id")->nullable();
             $table->timestamps();
         });
     }
