@@ -20,13 +20,4 @@
         </ul>
     </div>
     <!-- END AUTH buttons -->
-    <!-- SECTION SEARCH -->
-    <div class="search-section">
-        <form action="" method="POST" class="form form-inline">
-            <label for="pattern"><b>Search</b> &nbsp </label>
-            <input type="text" name="pattern" class="form-control">  &nbsp 
-            <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
-        </form>
-    </div>
-    <!-- END SECTION SEARCH -->
 </div>
