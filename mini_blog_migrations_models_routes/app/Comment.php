@@ -8,6 +8,10 @@ class Comment extends Model
 {
     protected $table = "comments";
     protected $guarded = [];
+    protected $dates = [
+        "created_at",
+        "updated_at",
+    ];
     
     public function post()
     {
