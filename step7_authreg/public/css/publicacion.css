@@ -1,0 +1,72 @@
+
+div.main-container {
+    padding: 0px 20px;
+    background-color: #f8f9fa;
+    height: 100vh;
+}
+
+div.header {
+    display: block;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 0px #00000063 !important;
+}
+
+div.content {
+    margin-top: 10px;
+    display: block;
+    /*background-color: white;*/
+    padding: 10px;
+    /*box-shadow: 1px 1px 1px 0px #00000063 !important;*/
+}
+
+div.header img.header.logo {
+    display: inline;
+}
+
+div.header .header-menu,
+div.header .search-section, 
+div.header .header-menu ul,
+.menu-item {
+    display: inline;
+}
+
+.header-menu .menu-item a {
+    text-decoration: none !important;
+    color: black;
+    font-weight: bold;
+}
+
+.auth-section {
+    float: right;
+}
+
+.search-section {
+    float: right;
+}
+
+.publicacion {
+    box-shadow: 1px 1px 1px #0000002e;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.publicacion .contenido, .publicacion .mi-comentario, .publicacion .comentarios {
+    padding: 20px;
+}
+
+.item-comentario {
+    margin-bottom: 20px;
+}
+
+.list-unstyled a {
+    text-decoration: none;
+    color: black;
+}
+
+.app-name {
+    display: inline;
+}
